@@ -16,3 +16,29 @@ git branch
 git branch -M main
 git push -u origin main
 git push
+
+
+git branches
+------------
+git branch
+git branch -M main
+git checkout main
+git checkout -b test1
+git branch -d test2    
+git push --set-upstream origin test1
+-> switch to req branch and create files/modify files and add , commit , push
+
+git diff branchname
+merging  : by creating a Pull Request - 1 commit
+         : git merge branchName
+
+-> Update our local repo  :  git pull origin main
+-> Merge conflicts resolve by manual
+
+git reset filename
+git reset HEAD~!
+git reset <commit hashfun>
+git reset -- hard <commit hashfun>
+
+-> Fork the repository . Will create a new copy repo in ours. We can edit/solve problems. Create PULL REQUEST to merge with Organization
+   This is called contributions.
